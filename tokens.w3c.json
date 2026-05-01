@@ -1,0 +1,85 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "$description": "Forma Futura Design System — W3C Design Tokens Format",
+
+  "color": {
+    "brand": {
+      "ink":         { "$value": "#0A0A0A", "$type": "color", "$description": "Primary background" },
+      "bone":        { "$value": "#F4F1EC", "$type": "color", "$description": "Primary text on dark" },
+      "accent":      { "$value": "#C8FF00", "$type": "color", "$description": "Lime electric — CTA, focus, NODO™" },
+      "accent-soft": { "$value": "#E6FF80", "$type": "color", "$description": "Hover state for primary CTA" }
+    },
+    "neutral": {
+      "900": { "$value": "#0A0A0A", "$type": "color" },
+      "800": { "$value": "#161616", "$type": "color" },
+      "700": { "$value": "#262626", "$type": "color" },
+      "600": { "$value": "#3D3D3D", "$type": "color" },
+      "500": { "$value": "#6B6B6B", "$type": "color" },
+      "400": { "$value": "#9C9C9C", "$type": "color" },
+      "300": { "$value": "#C9C5BE", "$type": "color" },
+      "200": { "$value": "#E4E0D9", "$type": "color" },
+      "100": { "$value": "#F4F1EC", "$type": "color" },
+      "050": { "$value": "#FAF8F4", "$type": "color" }
+    },
+    "semantic": {
+      "success": { "$value": "#4ADE80", "$type": "color" },
+      "warning": { "$value": "#FBBF24", "$type": "color" },
+      "danger":  { "$value": "#F87171", "$type": "color" },
+      "info":    { "$value": "#60A5FA", "$type": "color" }
+    }
+  },
+
+  "font": {
+    "family": {
+      "display": { "$value": ["Fraunces", "Times New Roman", "serif"], "$type": "fontFamily" },
+      "body":    { "$value": ["Inter", "system-ui", "sans-serif"], "$type": "fontFamily" },
+      "mono":    { "$value": ["JetBrains Mono", "ui-monospace", "monospace"], "$type": "fontFamily" }
+    },
+    "weight": {
+      "regular":  { "$value": 400, "$type": "fontWeight" },
+      "medium":   { "$value": 500, "$type": "fontWeight" },
+      "semibold": { "$value": 600, "$type": "fontWeight" }
+    }
+  },
+
+  "size": {
+    "font": {
+      "12": { "$value": "12px", "$type": "dimension" },
+      "14": { "$value": "14px", "$type": "dimension" },
+      "16": { "$value": "16px", "$type": "dimension" },
+      "20": { "$value": "20px", "$type": "dimension" },
+      "24": { "$value": "24px", "$type": "dimension" },
+      "32": { "$value": "32px", "$type": "dimension" },
+      "40": { "$value": "40px", "$type": "dimension" },
+      "56": { "$value": "56px", "$type": "dimension" },
+      "72": { "$value": "72px", "$type": "dimension" },
+      "96": { "$value": "96px", "$type": "dimension" }
+    },
+    "spacing": {
+      "1":  { "$value": "4px",   "$type": "dimension" },
+      "2":  { "$value": "8px",   "$type": "dimension" },
+      "3":  { "$value": "12px",  "$type": "dimension" },
+      "4":  { "$value": "16px",  "$type": "dimension" },
+      "5":  { "$value": "24px",  "$type": "dimension" },
+      "6":  { "$value": "32px",  "$type": "dimension" },
+      "7":  { "$value": "48px",  "$type": "dimension" },
+      "8":  { "$value": "64px",  "$type": "dimension" },
+      "9":  { "$value": "96px",  "$type": "dimension" },
+      "10": { "$value": "128px", "$type": "dimension" }
+    },
+    "radius": {
+      "sm":   { "$value": "4px",   "$type": "dimension" },
+      "md":   { "$value": "8px",   "$type": "dimension" },
+      "lg":   { "$value": "16px",  "$type": "dimension" },
+      "xl":   { "$value": "24px",  "$type": "dimension" },
+      "pill": { "$value": "999px", "$type": "dimension" }
+    }
+  },
+
+  "shadow": {
+    "sm":          { "$value": { "color": "rgba(0,0,0,0.20)", "offsetX": "0", "offsetY": "1px",  "blur": "2px",  "spread": "0" }, "$type": "shadow" },
+    "md":          { "$value": { "color": "rgba(0,0,0,0.30)", "offsetX": "0", "offsetY": "4px",  "blur": "12px", "spread": "0" }, "$type": "shadow" },
+    "lg":          { "$value": { "color": "rgba(0,0,0,0.40)", "offsetX": "0", "offsetY": "12px", "blur": "32px", "spread": "0" }, "$type": "shadow" },
+    "glow-accent": { "$value": { "color": "rgba(200,255,0,0.25)", "offsetX": "0", "offsetY": "0", "blur": "40px", "spread": "0" }, "$type": "shadow" }
+  }
+}
